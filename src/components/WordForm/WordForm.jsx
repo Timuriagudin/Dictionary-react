@@ -26,13 +26,25 @@ function WordForm({ addWord }) {
         <div className="form-row">
           <label>
             English:
-            <input type="text" name="en" placeholder="English" ref={enRef} />
+            <input
+              type="text"
+              name="en"
+              placeholder="English"
+              ref={enRef}
+              required
+            />
           </label>
         </div>
         <div className="form-row">
           <label>
             Russian:
-            <input type="text" name="ru" placeholder="Russian" ref={ruRef} />
+            <input
+              type="text"
+              name="ru"
+              placeholder="Russian"
+              ref={ruRef}
+              required
+            />
           </label>
         </div>
         <div className="form-row">
